@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#22002222"
+        android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/lblTopCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="some important data is been collected now.Patience pLease... "
+        android:textColor="?android:attr/panelColorBackground"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/myBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" />
+
+    <ProgressBar
+        android:id="@+id/myBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/txt_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#ffffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnDoSomethng"
+        android:layout_width="196dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="5dp"
+        android:text="Try Something then Click me!" />
+
+    <Button
+        android:id="@+id/btnDoItAgain"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="5dp"
+        android:text="Do It Again" />
+
+</LinearLayout>

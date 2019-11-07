@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <Button
+            android:id="@+id/btn_drawmap"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Draw  Map"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/btn_startservice"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="Start  Service"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/btn_stopservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Stop  Service"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_coordinate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Coordinates"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textAppearance="?android:attr/textAppearance"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary1">
+
+        <TextView
+            android:id="@+id/txt_msg"
+            android:layout_width="match_parent"
+            android:layout_height="399dp"
+            android:background="@color/colorPrimary2"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

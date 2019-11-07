@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.registrationexample.Update">
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/guideline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="Update Info:"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/et_oldname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Please enter old name:"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_newname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_oldname"
+        android:layout_alignStart="@+id/et_oldname"
+        android:layout_below="@+id/et_oldname"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Please enter new name:"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_newname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:onClick="update"
+        android:text="Update"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp" />
+
+</RelativeLayout>

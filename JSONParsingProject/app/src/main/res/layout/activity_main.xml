@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.jsonparsingproject.MainActivity"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="17dp"
+        android:text="Search"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/lstView"
+        android:layout_width="409dp"
+        android:layout_height="416dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pgBar" />
+
+    <EditText
+        android:id="@+id/txtsearchname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnsearch"
+        android:layout_alignBottom="@+id/btnsearch"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/btnsearch"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <ProgressBar
+        android:id="@+id/pgBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:layout_below="@+id/btnsearch"
+        android:layout_alignLeft="@+id/txtsearchname"
+        android:layout_alignStart="@+id/txtsearchname" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.randomobjectfromarrayexample.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/a"></ImageView>
+
+    <TextView
+        android:id="@+id/tView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Hell World"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Random"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="24sp" />
+</RelativeLayout>

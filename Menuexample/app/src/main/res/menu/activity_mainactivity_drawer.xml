@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/testing1"
+            android:icon="@drawable/mango"
+            android:title="Registration" />
+        <item
+            android:id="@+id/testing2"
+            android:icon="@drawable/pineapple"
+            android:title="Testing2" />
+        <item
+            android:id="@+id/testing3"
+            android:icon="@drawable/apple"
+            android:title="Testing3" />
+        <item
+            android:id="@+id/testing4"
+            android:icon="@drawable/mango"
+            android:title="Testing4" />
+    </group>
+
+
+    <group android:checkableBehavior="single">
+    <item android:title="TestExample1">
+        <menu>
+            <item
+                android:id="@+id/testing5"
+                android:icon="@drawable/orange"
+                android:title="Testing5" />
+            <item
+                android:id="@+id/testing6"
+                android:icon="@drawable/mango"
+                android:title="Testing6" />
+        </menu>
+    </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+    <item android:title="TestExample2">
+        <menu>
+            <item
+                android:id="@+id/testing7"
+                android:icon="@drawable/litchi"
+                android:title="Testing7" />
+            <item
+                android:id="@+id/testing8"
+                android:icon="@drawable/orange"
+                android:title="Testing8" />
+        </menu>
+    </item>
+    </group>
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.dragdropexample.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@android:color/darker_gray"
+        android:text="Darg Item"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+
+
+    <ImageView
+        android:id="@+id/iv_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/orange"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_below="@+id/tv_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        app:srcCompat="@drawable/mango"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/iv_star"
+        android:layout_alignEnd="@+id/iv_star" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pineapple"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignRight="@+id/iv_star"
+        android:layout_alignEnd="@+id/iv_star" />
+
+</RelativeLayout>

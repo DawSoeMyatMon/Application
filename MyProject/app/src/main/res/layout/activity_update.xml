@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.myproject.UpdateActivity">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_above="@+id/etupnrc"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/etupname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/etupid"
+        android:layout_alignRight="@+id/btnupselect"
+        android:layout_alignEnd="@+id/btnupselect"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nrc"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/etupnrc"
+        android:layout_alignBottom="@+id/etupnrc"
+        android:layout_alignRight="@+id/textView14"
+        android:layout_alignEnd="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/etupnrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/etupname"
+        android:layout_alignLeft="@+id/etupname"
+        android:layout_alignStart="@+id/etupname" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="Age"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_below="@+id/etupnrc"
+        android:layout_alignLeft="@+id/btnulpdate"
+        android:layout_alignStart="@+id/btnulpdate" />
+
+    <EditText
+        android:id="@+id/etupage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignTop="@+id/textView14"
+        android:layout_alignLeft="@+id/etupnrc"
+        android:layout_alignStart="@+id/etupnrc" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_alignBottom="@+id/etupphone"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11" />
+
+    <EditText
+        android:id="@+id/etupphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/etupage"
+        android:layout_alignLeft="@+id/etupage"
+        android:layout_alignStart="@+id/etupage" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Address"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_above="@+id/btnulpdate"
+        android:layout_toLeftOf="@+id/etupaddress"
+        android:layout_toStartOf="@+id/etupaddress" />
+
+    <EditText
+        android:id="@+id/etupaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_alignLeft="@+id/etupphone"
+        android:layout_alignStart="@+id/etupphone" />
+
+    <Button
+        android:id="@+id/btnulpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Update"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView16"
+        android:layout_alignRight="@+id/etupid"
+        android:layout_alignEnd="@+id/etupid" />
+
+    <EditText
+        android:id="@+id/etupid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnupselect"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Select id."
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnupselect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="Select"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+</RelativeLayout>

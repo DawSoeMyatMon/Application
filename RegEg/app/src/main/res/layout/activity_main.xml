@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.regeg.MainActivity">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdngp_gender"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp">
+
+        <RadioButton
+            android:id="@+id/red_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rdngp_gender"
+            android:layout_centerHorizontal="true"
+            android:text="Male"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rdn_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/red_male"
+            android:layout_alignStart="@+id/red_male"
+            android:layout_alignTop="@+id/red_male"
+            android:text="Female"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rdngp_gender"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:text="Gender"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/chk_myanmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rdngp_gender"
+        android:layout_alignStart="@+id/rdngp_gender"
+        android:layout_below="@+id/rdngp_gender"
+        android:layout_marginTop="59dp"
+        android:text="Myanmar"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/chk_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chk_myanmar"
+        android:layout_alignStart="@+id/chk_myanmar"
+        android:layout_centerVertical="true"
+        android:text="English"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/chk_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chk_english"
+        android:layout_alignStart="@+id/chk_english"
+        android:layout_below="@+id/chk_english"
+        android:layout_marginTop="31dp"
+        android:text="Other"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_gender"
+        android:layout_alignStart="@+id/tv_gender"
+        android:layout_centerVertical="true"
+        android:text="Language"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Submit"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_below="@+id/chk_other"
+        android:layout_centerHorizontal="true"
+        android:onClick="submit"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Menuexample</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Testing1</string>
+    <string name="action_settings1">Testing2</string>
+    <string name="action_settings2">Testing3</string>
+    <string name="action_settings3">Testing4</string>
+    <string name="title_activity_testing1">Registration</string>
+    <string name="title_activity_testing2">Registration Successful</string>
+    <string name="title_activity_testing3">Login</string>
+    <string name="title_activity_testing4">Login Successful</string>
+    <string name="title_activity_testing5">Testing5</string>
+    <string name="title_activity_testing6">Testing6</string>
+    <string name="title_activity_testing7">Testing7</string>
+    <string name="title_activity_testing8">Testing8</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.registrationexample.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt_name"
+        android:layout_marginTop="12dp"
+        android:text="Registration Form"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <EditText
+        android:id="@+id/txt_nrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nrc"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="88dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txt_name"
+        android:layout_alignLeft="@+id/txt_name"
+        android:layout_alignStart="@+id/txt_name" />
+
+    <EditText
+        android:id="@+id/txt_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Age"
+        android:textSize="18sp"
+        tools:textColor="@android:color/holo_blue_dark"
+        android:layout_below="@+id/txt_nrc"
+        android:layout_alignLeft="@+id/txt_nrc"
+        android:layout_alignStart="@+id/txt_nrc"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:id="@+id/txt_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Phone"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="248dp"
+        android:layout_below="@+id/txt_age"
+        android:layout_alignLeft="@+id/txt_age"
+        android:layout_alignStart="@+id/txt_age"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:id="@+id/txt_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Address"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="329dp"
+        android:layout_below="@+id/txt_phone"
+        android:layout_alignLeft="@+id/txt_phone"
+        android:layout_alignStart="@+id/txt_phone"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="register"
+        android:shadowColor="@color/colorAccent"
+        android:text="Register"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="425dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp" />
+
+</RelativeLayout>

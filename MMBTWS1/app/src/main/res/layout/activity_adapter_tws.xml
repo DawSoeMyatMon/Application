@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:context="com.example.nyinyi.mmbtws1.AdapterTWS">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:scaleType="fitXY"
+        android:layout_height="40dp"
+        android:id="@+id/ivTWS"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Account Number"
+        android:id="@+id/txtAccountNumber"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/ivTWS"
+        android:layout_toLeftOf="@+id/txtTellerID"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TellerID"
+        android:id="@+id/txtTellerID"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Qty"
+        android:id="@+id/txtqty"
+        android:textColor="#666"
+        android:layout_below="@+id/ivTWS"
+        android:layout_alignLeft="@+id/txtAccountNumber"
+        android:layout_alignStart="@+id/txtAccountNumber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Denomination"
+        android:id="@+id/txtDenomination"
+        android:textColor="#666"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/txtqty"
+        android:layout_alignLeft="@+id/txtqty"
+        android:layout_alignStart="@+id/txtqty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Amount"
+        android:id="@+id/txtAmount"
+        android:textColor="#666"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/txtDenomination"
+        android:layout_alignLeft="@+id/txtDenomination"
+        android:layout_alignStart="@+id/txtDenomination" />
+
+</RelativeLayout>

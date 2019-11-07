@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.notificationexamples.createnotification">
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="365dp"
+        android:layout_height="46dp"
+        android:background="@android:color/darker_gray"
+        android:text="Create Notification"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="400dp"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="Cancel Notification"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="300dp"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.notiexample.MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+
+    <TextView
+        android:id="@+id/tv_noti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="79dp"
+        android:text="Notification Testing"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <ImageButton
+        android:id="@+id/ibtn_noti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pineapple"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="94dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_noti"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:background="@android:color/black"
+        android:text="Notification"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="291dp"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/ibtn_noti"
+        android:layout_alignRight="@+id/ibtn_noti"
+        android:layout_alignEnd="@+id/ibtn_noti" />
+
+</RelativeLayout>

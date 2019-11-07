@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nyinyi.menuexample.Mainactivity"
+    tools:showIn="@layout/app_bar_mainactivity">
+
+
+    <LinearLayout
+        android:id="@+id/lyut"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="376dp"
+        android:layout_height="506dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-3dp">
+
+        <TextView
+            android:id="@+id/tview"
+            android:layout_width="match_parent"
+            android:layout_height="504dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

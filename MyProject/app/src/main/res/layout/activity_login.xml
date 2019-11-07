@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyinyi.myproject.LoginActivity">
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvfename"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etname"
+        android:layout_alignStart="@+id/etname"
+        android:layout_below="@+id/tvfepassword"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Login"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvfename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etname"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etname"
+        android:layout_marginTop="62dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvfepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etname"
+        android:layout_alignStart="@+id/etname"
+        android:layout_below="@+id/etname"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+</RelativeLayout>
